@@ -15,6 +15,18 @@ Key architectural considerations include:
 - Secure AWS target architecture design
 - Cloud governance and operational readiness
 
+## Architecture Scope
+
+The portfolio focuses on the **discovery and planning phase of cloud migration**, where a Lead Technical Architect evaluates existing infrastructure and designs a secure AWS migration strategy.
+
+The scope includes:
+
+- On-premise system analysis
+- Migration strategy selection using the AWS 7R framework
+- Security risk assessment
+- AWS service mapping for target architecture
+- Migration tooling selection
+
 ---
 
 ## Labs Included
@@ -28,7 +40,8 @@ This lab demonstrates how a **Lead Technical Architect** evaluates an organisati
 - Workload discovery and inventory
 - System dependency analysis
 - Security risk identification
-- Migration strategy selection (Rehost, Replatform, Refactor)
+- Migration strategy selection using the AWS 7R migration model (Rehost, Replatform,
+  Refactor, Repurchase, Relocate, Retain, Retire)   
 - Mapping on-prem workloads to AWS services
 - Migration planning using AWS migration services
 
