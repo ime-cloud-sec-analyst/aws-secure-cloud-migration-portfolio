@@ -49,22 +49,31 @@ Users → authenticate through Active Directory
 
 Documents → stored in File Storage Server
 
+
 ## Current Architecture (On-Premise)
 
+
+```
 Users
-  ↓
+│
+▼
 Web Server
-  ↓
+│
+▼
 Application Server
-  ↓
+│
+▼
 Database Server
 
-Application Server → File Storage
+Application Server ──► File Storage
 
-Employees → Authenticate via Active Directory
+Employees ──► Active Directory
+```
 
 ## Security Risk Assessment
 
+
+Potential Risks:
 
 Potential security risks identified in the current on-premise environment include:
 
