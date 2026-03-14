@@ -130,4 +130,32 @@ By implementing a secure landing zone, organisations ensure that future cloud wo
 
 
 
+## Landing Zone Architecture Overview
+
+
+AWS Organization
+│
+├── Management Account
+│   └── Billing and governance
+│
+├── Security Account
+│   ├── AWS GuardDuty
+│   ├── AWS Security Hub
+│   └── AWS Config
+│
+├── Log Archive Account
+│   └── Centralized CloudTrail logs stored in Amazon S3
+│
+├── Shared Services Account
+│   ├── Directory services
+│   ├── CI/CD pipelines
+│   └── Shared networking
+│
+└── Workload Accounts
+    ├── Application workloads
+    ├── Databases
+    └── Web services
+
+
+
 
