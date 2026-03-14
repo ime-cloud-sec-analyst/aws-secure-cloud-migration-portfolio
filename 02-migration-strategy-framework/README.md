@@ -1,5 +1,20 @@
 # Lab 2 — Enterprise Cloud Migration Strategy Framework
 
+
+### Lab 2 — Enterprise Cloud Migration Strategy Framework
+
+This lab demonstrates how a cloud architect applies the AWS 6R migration model to classify workloads, define migration waves, and design a phased migration strategy for enterprise on-premise environments.
+
+#### Capabilities Demonstrated
+
+- Migration strategy planning using the AWS 6R framework
+- Workload prioritisation and migration wave design
+- Enterprise migration architecture mapping
+- AWS target service alignment
+- Architecture tooling identification
+
+
+
 ## Objective
 
 The objective of this lab is to design an enterprise migration strategy that moves workloads from on-premise infrastructure to AWS using structured migration waves and the AWS 6R migration model.
