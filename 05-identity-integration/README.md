@@ -1,5 +1,28 @@
 # Lab 5 — Identity Integration Architecture
 
+## Identity Integration Architecture Diagram
+
+```
+Corporate User
+      │
+      │ Login
+      ▼
+Enterprise Identity Provider
+(Azure AD / Active Directory)
+      │
+      │ SAML / Federation
+      ▼
+AWS IAM Identity Center
+      │
+      ▼
+IAM Roles
+      │
+      ▼
+AWS Resources
+(EC2, S3, RDS, etc.)
+```
+
+
 ## Overview
 
 This lab demonstrates how enterprises integrate corporate identity systems with AWS during cloud migration. Identity integration ensures that employees can securely access cloud resources using their existing corporate credentials.
